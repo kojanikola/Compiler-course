@@ -1,0 +1,371 @@
+INFO  23:44:41,465 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  23:44:41,524 - #2 program
+INFO  23:44:41,524 - #27 MJProgram
+INFO  23:44:41,524 - #16 const
+INFO  23:44:41,526 - #27 char
+INFO  23:44:41,526 - #27 r
+INFO  23:44:41,527 - #10 =
+INFO  23:44:41,527 - #29 z
+INFO  23:44:41,528 - #7 ;
+INFO  23:44:41,528 - #27 bool
+INFO  23:44:41,529 - #27 p
+INFO  23:44:41,530 - #7 ;
+INFO  23:44:41,530 - #27 char
+INFO  23:44:41,531 - #27 j
+INFO  23:44:41,531 - #7 ;
+INFO  23:44:41,531 - #16 const
+INFO  23:44:41,531 - #27 bool
+INFO  23:44:41,532 - #27 q
+INFO  23:44:41,532 - #10 =
+INFO  23:44:41,532 - #28 true
+INFO  23:44:41,532 - #7 ;
+INFO  23:44:41,532 - #16 const
+INFO  23:44:41,533 - #27 bool
+INFO  23:44:41,534 - #27 j
+INFO  23:44:41,534 - #10 =
+INFO  23:44:41,534 - #26 3
+INFO  23:44:41,534 - #7 ;
+INFO  23:44:41,534 - #27 int
+INFO  23:44:41,534 - #27 x
+INFO  23:44:41,534 - #13 ,
+INFO  23:44:41,534 - #27 blabla
+INFO  23:44:41,534 - #40 -
+ERROR 23:44:41,534 - 
+Sintaksna greska na liniji 7
+INFO  23:44:41,535 - #13 ,
+INFO  23:44:41,535 - #27 gl
+INFO  23:44:41,535 - #12 +
+INFO  23:44:41,535 - #7 ;
+INFO  23:44:41,536 - #27 int
+INFO  23:44:41,536 - #27 y
+INFO  23:44:41,536 - #7 ;
+ERROR 23:44:41,536 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 7
+INFO  23:44:41,537 - #16 const
+INFO  23:44:41,537 - #27 int
+INFO  23:44:41,537 - #27 z
+INFO  23:44:41,538 - #10 =
+INFO  23:44:41,538 - #26 3
+INFO  23:44:41,538 - #13 ,
+INFO  23:44:41,538 - #27 a
+INFO  23:44:41,538 - #10 =
+INFO  23:44:41,538 - #26 2
+INFO  23:44:41,538 - #7 ;
+INFO  23:44:41,539 - #27 int
+INFO  23:44:41,539 - #27 d
+INFO  23:44:41,539 - #5 [
+INFO  23:44:41,539 - #6 ]
+INFO  23:44:41,539 - #7 ;
+INFO  23:44:41,539 - #16 const
+INFO  23:44:41,539 - #27 char
+INFO  23:44:41,539 - #27 e
+INFO  23:44:41,539 - #10 =
+INFO  23:44:41,539 - #26 3
+INFO  23:44:41,540 - #7 ;
+INFO  23:44:41,540 - #16 const
+INFO  23:44:41,540 - #27 int
+INFO  23:44:41,540 - #27 d
+INFO  23:44:41,540 - #10 =
+INFO  23:44:41,540 - #26 3
+INFO  23:44:41,540 - #7 ;
+INFO  23:44:41,541 - #3 {
+INFO  23:44:41,541 - #15 void
+INFO  23:44:41,542 - #27 main
+INFO  23:44:41,542 - #8 (
+INFO  23:44:41,543 - #9 )
+INFO  23:44:41,543 - #27 int
+INFO  23:44:41,543 - #27 i
+INFO  23:44:41,543 - #7 ;
+INFO  23:44:41,544 - #3 {
+INFO  23:44:41,544 - #27 i
+INFO  23:44:41,544 - #10 =
+INFO  23:44:41,545 - #26 1
+INFO  23:44:41,546 - #7 ;
+INFO  23:44:41,546 - #14 print
+INFO  23:44:41,547 - #8 (
+INFO  23:44:41,548 - #27 i
+INFO  23:44:41,548 - #9 )
+INFO  23:44:41,548 - #7 ;
+INFO  23:44:41,548 - #14 print
+INFO  23:44:41,548 - #8 (
+INFO  23:44:41,548 - #29 c
+INFO  23:44:41,548 - #9 )
+INFO  23:44:41,549 - #7 ;
+INFO  23:44:41,549 - #4 }
+INFO  23:44:41,549 - #4 }
+INFO  23:44:41,561 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  ProgramDeclarations(
+    ProgramDeclarations(
+      ProgramDeclarations(
+        ProgramDeclarations(
+          ProgramDeclarations(
+            ProgramDeclarations(
+              ProgramDeclarations(
+                ProgramDeclarations(
+                  ProgramDeclarations(
+                    ProgramDeclarations(
+                      ProgramDeclarations(
+                        NoProgramDeclarations(
+                        ) [NoProgramDeclarations]
+                        ConstDeclaration(
+                          ConstDecl(
+                            Type(
+                             char
+                            ) [Type]
+                            ConstDeclarationPart(
+                              ConstChar(
+                               r
+                               z
+                              ) [ConstChar]
+                            ) [ConstDeclarationPart]
+                          ) [ConstDecl]
+                        ) [ConstDeclaration]
+                      ) [ProgramDeclarations]
+                      VarDeclaration(
+                        VarDecl(
+                          Type(
+                           bool
+                          ) [Type]
+                          VarDeclPart(
+                            VarPartItem(
+                             p
+                            ) [VarPartItem]
+                          ) [VarDeclPart]
+                        ) [VarDecl]
+                      ) [VarDeclaration]
+                    ) [ProgramDeclarations]
+                    VarDeclaration(
+                      VarDecl(
+                        Type(
+                         char
+                        ) [Type]
+                        VarDeclPart(
+                          VarPartItem(
+                           j
+                          ) [VarPartItem]
+                        ) [VarDeclPart]
+                      ) [VarDecl]
+                    ) [VarDeclaration]
+                  ) [ProgramDeclarations]
+                  ConstDeclaration(
+                    ConstDecl(
+                      Type(
+                       bool
+                      ) [Type]
+                      ConstDeclarationPart(
+                        ConstBool(
+                         q
+                         true
+                        ) [ConstBool]
+                      ) [ConstDeclarationPart]
+                    ) [ConstDecl]
+                  ) [ConstDeclaration]
+                ) [ProgramDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     bool
+                    ) [Type]
+                    ConstDeclarationPart(
+                      ConstNumber(
+                       j
+                       3
+                      ) [ConstNumber]
+                    ) [ConstDeclarationPart]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [ProgramDeclarations]
+              VarDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclarations(
+                    VarDeclPart(
+                      VarPartItem(
+                       x
+                      ) [VarPartItem]
+                    ) [VarDeclPart]
+                    ErrorInDeclaringItem(
+                    ) [ErrorInDeclaringItem]
+                  ) [VarDeclarations]
+                ) [VarDecl]
+              ) [VarDeclaration]
+            ) [ProgramDeclarations]
+            VarDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclPart(
+                  VarPartItem(
+                   y
+                  ) [VarPartItem]
+                ) [VarDeclPart]
+              ) [VarDecl]
+            ) [VarDeclaration]
+          ) [ProgramDeclarations]
+          ConstDeclaration(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarations(
+                ConstDeclarationPart(
+                  ConstNumber(
+                   z
+                   3
+                  ) [ConstNumber]
+                ) [ConstDeclarationPart]
+                ConstNumber(
+                 a
+                 2
+                ) [ConstNumber]
+              ) [ConstDeclarations]
+            ) [ConstDecl]
+          ) [ConstDeclaration]
+        ) [ProgramDeclarations]
+        VarDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclPart(
+              ArrayVarPart(
+               d
+              ) [ArrayVarPart]
+            ) [VarDeclPart]
+          ) [VarDecl]
+        ) [VarDeclaration]
+      ) [ProgramDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationPart(
+            ConstNumber(
+             e
+             3
+            ) [ConstNumber]
+          ) [ConstDeclarationPart]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [ProgramDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationPart(
+          ConstNumber(
+           d
+           3
+          ) [ConstNumber]
+        ) [ConstDeclarationPart]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VariableDeclarations(
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             i
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NotStatements(
+            ) [NotStatements]
+            StatementDesignator(
+              DesignatorAssignOp(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                SimpleExpr(
+                  Expr1Term(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [Expr1Term]
+                ) [SimpleExpr]
+              ) [DesignatorAssignOp]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementPrint(
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+            NoNumConst(
+            ) [NoNumConst]
+          ) [StatementPrint]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorChar(
+                 c
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:44:41,562 - ===================================
+INFO  23:44:41,565 - Dodata konstanta na liniji 2
+INFO  23:44:41,566 - dodata promenljiva p on line 3
+INFO  23:44:41,566 - dodata promenljiva j on line 4
+INFO  23:44:41,566 - Dodata konstanta na liniji 5
+ERROR 23:44:41,566 - Na mestu int konstante tip nije int on line 6
+ERROR 23:44:41,566 - Konstantaj vec postoji on line 6
+INFO  23:44:41,566 - dodata promenljiva x on line 7
+INFO  23:44:41,566 - dodata promenljiva y on line 8
+INFO  23:44:41,566 - Dodata konstanta na liniji 9
+INFO  23:44:41,566 - Dodata konstanta na liniji 9
+INFO  23:44:41,567 - dodata promenljiva d on line 10
+ERROR 23:44:41,567 - Na mestu int konstante tip nije int on line 11
+INFO  23:44:41,568 - Dodata konstanta na liniji 11
+ERROR 23:44:41,568 - Konstantad vec postoji on line 12
+INFO  23:44:41,568 - Obradjuje se funkcija main on line 14
+INFO  23:44:41,568 - dodata promenljiva i on line 14
+INFO  23:44:41,568 - Print count calls =2
+INFO  23:44:41,569 - Vars = 0
+INFO  23:44:41,569 - ===================================
+ERROR 23:44:41,570 - Parsiranje NIJE uspesno zavrseno!

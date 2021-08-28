@@ -1,0 +1,460 @@
+INFO  23:56:16,583 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  23:56:16,659 - #2 program
+INFO  23:56:16,659 - #27 MJProgram
+INFO  23:56:16,659 - #16 const
+INFO  23:56:16,661 - #27 char
+INFO  23:56:16,661 - #27 r
+INFO  23:56:16,662 - #10 =
+INFO  23:56:16,662 - #29 z
+INFO  23:56:16,662 - #7 ;
+INFO  23:56:16,663 - #27 bool
+INFO  23:56:16,664 - #27 p
+INFO  23:56:16,665 - #7 ;
+INFO  23:56:16,665 - #27 char
+INFO  23:56:16,667 - #27 j
+INFO  23:56:16,667 - #7 ;
+INFO  23:56:16,667 - #16 const
+INFO  23:56:16,667 - #27 bool
+INFO  23:56:16,668 - #27 q
+INFO  23:56:16,668 - #10 =
+INFO  23:56:16,668 - #28 true
+INFO  23:56:16,668 - #7 ;
+INFO  23:56:16,668 - #16 const
+INFO  23:56:16,685 - #27 bool
+INFO  23:56:16,685 - #27 j
+INFO  23:56:16,685 - #10 =
+INFO  23:56:16,686 - #26 3
+INFO  23:56:16,686 - #7 ;
+INFO  23:56:16,686 - #27 int
+INFO  23:56:16,687 - #27 x
+INFO  23:56:16,687 - #13 ,
+INFO  23:56:16,687 - #27 blabla
+INFO  23:56:16,687 - #40 -
+ERROR 23:56:16,688 - 
+Sintaksna greska na liniji 7
+INFO  23:56:16,688 - #13 ,
+INFO  23:56:16,688 - #27 gl
+INFO  23:56:16,688 - #12 +
+INFO  23:56:16,690 - #7 ;
+INFO  23:56:16,690 - #27 int
+INFO  23:56:16,691 - #27 y
+INFO  23:56:16,691 - #7 ;
+ERROR 23:56:16,691 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 7
+INFO  23:56:16,693 - #16 const
+INFO  23:56:16,694 - #27 int
+INFO  23:56:16,694 - #27 z
+INFO  23:56:16,694 - #10 =
+INFO  23:56:16,694 - #26 3
+INFO  23:56:16,695 - #13 ,
+INFO  23:56:16,695 - #27 a
+INFO  23:56:16,695 - #10 =
+INFO  23:56:16,696 - #26 2
+INFO  23:56:16,696 - #7 ;
+INFO  23:56:16,697 - #27 int
+INFO  23:56:16,697 - #27 d
+INFO  23:56:16,698 - #5 [
+INFO  23:56:16,698 - #6 ]
+INFO  23:56:16,698 - #7 ;
+INFO  23:56:16,700 - #16 const
+INFO  23:56:16,700 - #27 char
+INFO  23:56:16,700 - #27 e
+INFO  23:56:16,701 - #10 =
+INFO  23:56:16,701 - #26 3
+INFO  23:56:16,701 - #7 ;
+INFO  23:56:16,702 - #16 const
+INFO  23:56:16,702 - #27 int
+INFO  23:56:16,703 - #27 d
+INFO  23:56:16,703 - #10 =
+INFO  23:56:16,703 - #26 3
+INFO  23:56:16,703 - #7 ;
+INFO  23:56:16,704 - #3 {
+INFO  23:56:16,704 - #27 int
+INFO  23:56:16,706 - #27 k
+INFO  23:56:16,706 - #8 (
+INFO  23:56:16,707 - #27 int
+INFO  23:56:16,707 - #27 c
+INFO  23:56:16,707 - #9 )
+INFO  23:56:16,713 - #27 int
+INFO  23:56:16,716 - #27 c
+INFO  23:56:16,716 - #7 ;
+INFO  23:56:16,716 - #27 int
+INFO  23:56:16,717 - #27 x
+INFO  23:56:16,718 - #7 ;
+INFO  23:56:16,718 - #27 char
+INFO  23:56:16,718 - #27 f
+INFO  23:56:16,719 - #5 [
+INFO  23:56:16,719 - #6 ]
+INFO  23:56:16,719 - #7 ;
+INFO  23:56:16,719 - #27 int
+INFO  23:56:16,719 - #27 q
+INFO  23:56:16,720 - #5 [
+INFO  23:56:16,720 - #6 ]
+INFO  23:56:16,721 - #3 {
+ERROR 23:56:16,721 - 
+Sintaksna greska na liniji 14
+INFO  23:56:16,721 - #27 c
+INFO  23:56:16,721 - #10 =
+INFO  23:56:16,722 - #26 1
+INFO  23:56:16,722 - #12 +
+INFO  23:56:16,722 - #7 ;
+INFO  23:56:16,723 - #11 return
+INFO  23:56:16,723 - #7 ;
+INFO  23:56:16,723 - #4 }
+INFO  23:56:16,723 - #15 void
+INFO  23:56:16,724 - #27 main
+INFO  23:56:16,724 - #8 (
+INFO  23:56:16,724 - #9 )
+INFO  23:56:16,725 - #27 int
+INFO  23:56:16,725 - #27 i
+INFO  23:56:16,725 - #7 ;
+INFO  23:56:16,725 - #3 {
+INFO  23:56:16,725 - #27 i
+INFO  23:56:16,726 - #10 =
+ERROR 23:56:16,726 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 14
+INFO  23:56:16,728 - #26 1
+INFO  23:56:16,729 - #7 ;
+INFO  23:56:16,731 - #14 print
+INFO  23:56:16,732 - #8 (
+INFO  23:56:16,732 - #27 i
+INFO  23:56:16,732 - #9 )
+INFO  23:56:16,734 - #7 ;
+INFO  23:56:16,735 - #14 print
+INFO  23:56:16,735 - #8 (
+INFO  23:56:16,736 - #29 c
+INFO  23:56:16,736 - #9 )
+INFO  23:56:16,736 - #7 ;
+INFO  23:56:16,736 - #4 }
+INFO  23:56:16,737 - #4 }
+INFO  23:56:16,772 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  ProgramDeclarations(
+    ProgramDeclarations(
+      ProgramDeclarations(
+        ProgramDeclarations(
+          ProgramDeclarations(
+            ProgramDeclarations(
+              ProgramDeclarations(
+                ProgramDeclarations(
+                  ProgramDeclarations(
+                    ProgramDeclarations(
+                      ProgramDeclarations(
+                        NoProgramDeclarations(
+                        ) [NoProgramDeclarations]
+                        ConstDeclaration(
+                          ConstDecl(
+                            Type(
+                             char
+                            ) [Type]
+                            ConstDeclarationPart(
+                              ConstChar(
+                               r
+                               z
+                              ) [ConstChar]
+                            ) [ConstDeclarationPart]
+                          ) [ConstDecl]
+                        ) [ConstDeclaration]
+                      ) [ProgramDeclarations]
+                      VarDeclaration(
+                        VarDecl(
+                          Type(
+                           bool
+                          ) [Type]
+                          VarDeclPart(
+                            VarPartItem(
+                             p
+                            ) [VarPartItem]
+                          ) [VarDeclPart]
+                        ) [VarDecl]
+                      ) [VarDeclaration]
+                    ) [ProgramDeclarations]
+                    VarDeclaration(
+                      VarDecl(
+                        Type(
+                         char
+                        ) [Type]
+                        VarDeclPart(
+                          VarPartItem(
+                           j
+                          ) [VarPartItem]
+                        ) [VarDeclPart]
+                      ) [VarDecl]
+                    ) [VarDeclaration]
+                  ) [ProgramDeclarations]
+                  ConstDeclaration(
+                    ConstDecl(
+                      Type(
+                       bool
+                      ) [Type]
+                      ConstDeclarationPart(
+                        ConstBool(
+                         q
+                         true
+                        ) [ConstBool]
+                      ) [ConstDeclarationPart]
+                    ) [ConstDecl]
+                  ) [ConstDeclaration]
+                ) [ProgramDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     bool
+                    ) [Type]
+                    ConstDeclarationPart(
+                      ConstNumber(
+                       j
+                       3
+                      ) [ConstNumber]
+                    ) [ConstDeclarationPart]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [ProgramDeclarations]
+              VarDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclarations(
+                    VarDeclPart(
+                      VarPartItem(
+                       x
+                      ) [VarPartItem]
+                    ) [VarDeclPart]
+                    ErrorInDeclaringItem(
+                    ) [ErrorInDeclaringItem]
+                  ) [VarDeclarations]
+                ) [VarDecl]
+              ) [VarDeclaration]
+            ) [ProgramDeclarations]
+            VarDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclPart(
+                  VarPartItem(
+                   y
+                  ) [VarPartItem]
+                ) [VarDeclPart]
+              ) [VarDecl]
+            ) [VarDeclaration]
+          ) [ProgramDeclarations]
+          ConstDeclaration(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarations(
+                ConstDeclarationPart(
+                  ConstNumber(
+                   z
+                   3
+                  ) [ConstNumber]
+                ) [ConstDeclarationPart]
+                ConstNumber(
+                 a
+                 2
+                ) [ConstNumber]
+              ) [ConstDeclarations]
+            ) [ConstDecl]
+          ) [ConstDeclaration]
+        ) [ProgramDeclarations]
+        VarDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclPart(
+              ArrayVarPart(
+               d
+              ) [ArrayVarPart]
+            ) [VarDeclPart]
+          ) [VarDecl]
+        ) [VarDeclaration]
+      ) [ProgramDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationPart(
+            ConstNumber(
+             e
+             3
+            ) [ConstNumber]
+          ) [ConstDeclarationPart]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [ProgramDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationPart(
+          ConstNumber(
+           d
+           3
+          ) [ConstNumber]
+        ) [ConstDeclarationPart]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MehtodTypeNameCustom(
+        Type(
+         int
+        ) [Type]
+       k
+      ) [MehtodTypeNameCustom]
+      FormParams(
+        FormPars(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             c
+              NoBrackets(
+              ) [NoBrackets]
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+        ) [FormPars]
+      ) [FormParams]
+      VariableDeclarations(
+        VariableDeclarations(
+          VariableDeclarations(
+            VariableDeclarations(
+              NoVariableDeclarations(
+              ) [NoVariableDeclarations]
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclPart(
+                  VarPartItem(
+                   c
+                  ) [VarPartItem]
+                ) [VarDeclPart]
+              ) [VarDecl]
+            ) [VariableDeclarations]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclPart(
+                VarPartItem(
+                 x
+                ) [VarPartItem]
+              ) [VarDeclPart]
+            ) [VarDecl]
+          ) [VariableDeclarations]
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VarDeclPart(
+              ArrayVarPart(
+               f
+              ) [ArrayVarPart]
+            ) [VarDeclPart]
+          ) [VarDecl]
+        ) [VariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            ErrorInDeclaringItem(
+            ) [ErrorInDeclaringItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NotStatements(
+            ) [NotStatements]
+            StatementDesignator(
+              DesignatorAssignOp(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                SimpleExpr(
+                  Expr1Term(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [Expr1Term]
+                ) [SimpleExpr]
+              ) [DesignatorAssignOp]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementPrint(
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+            NoNumConst(
+            ) [NoNumConst]
+          ) [StatementPrint]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorChar(
+                 c
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:56:16,774 - ===================================
+INFO  23:56:16,784 - Dodata konstanta na liniji 2
+INFO  23:56:16,785 - dodata promenljiva p on line 3
+INFO  23:56:16,785 - dodata promenljiva j on line 4
+INFO  23:56:16,786 - Dodata konstanta na liniji 5
+ERROR 23:56:16,786 - Na mestu int konstante tip nije int on line 6
+ERROR 23:56:16,790 - Konstantaj vec postoji on line 6
+INFO  23:56:16,792 - dodata promenljiva x on line 7
+INFO  23:56:16,792 - dodata promenljiva y on line 8
+INFO  23:56:16,792 - Dodata konstanta na liniji 9
+INFO  23:56:16,792 - Dodata konstanta na liniji 9
+INFO  23:56:16,792 - dodata promenljiva d on line 10
+ERROR 23:56:16,793 - Na mestu int konstante tip nije int on line 11
+INFO  23:56:16,793 - Dodata konstanta na liniji 11
+ERROR 23:56:16,793 - Konstantad vec postoji on line 12
+INFO  23:56:16,793 - Obradjuje se funkcija k on line 14
+INFO  23:56:16,793 - dodata promenljiva c on line 14
+INFO  23:56:16,794 - dodata promenljiva x on line 14
+INFO  23:56:16,794 - dodata promenljiva f on line 14
+ERROR 23:56:16,794 - Ident i nije prethodno deklarisan
+ERROR 23:56:16,795 - Greska nekompatibilni tipovi on line 20
+ERROR 23:56:16,795 - Ident i nije prethodno deklarisan
+ERROR 23:56:16,795 - Semanticka greska na liniji 21: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  23:56:16,795 - Print count calls =2
+INFO  23:56:16,795 - Vars = 0
+INFO  23:56:16,795 - ===================================
+ERROR 23:56:16,798 - Parsiranje NIJE uspesno zavrseno!

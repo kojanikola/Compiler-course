@@ -1,0 +1,54 @@
+// Test301
+
+program test301
+
+	int niz1[];
+	char nizch[];
+	bool nizb[];
+	
+	
+{	
+	void main()	
+	bool boole;
+	int final bodovi;
+	{
+		goto A;
+		print(1);
+		print(2);
+		A : print('l');
+		
+		nizch = new char[3];
+		nizch[0] = 'a';
+		nizch[1] = 'b';
+		nizch[5 - 3] = 'c';
+		print(nizch[0]);
+		cezar(nizch);
+		print(nizch[0]);
+		print(nizch[1]);
+		print(nizch[2]);
+		niz1 = new int[5];
+		niz1[0] = 5;
+		niz1[1] = 5;
+		niz1[2] = 2;
+		niz1[3] = 6;
+		niz1[4] = 4;
+		print(niz1[0]);
+	
+		print(max niz1);
+		niz1~2,1~;
+		print('b');
+		niz1[0]+++;
+		print(niz1[0]);
+		bodovi=0;
+		bodovi+++;
+		bodovi=10;
+		print(bodovi);
+		
+		nizb = new bool[3];
+		nizb[0] = true;
+	}
+	
+	
+}
+
+

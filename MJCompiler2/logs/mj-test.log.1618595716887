@@ -1,0 +1,73 @@
+INFO  19:55:00,774 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler\test\program.mj
+INFO  19:55:00,817 - #2 program
+INFO  19:55:00,817 - #27 MJProgram
+INFO  19:55:00,817 - #27 int
+INFO  19:55:00,817 - #27 x
+INFO  19:55:00,818 - #13 ,
+INFO  19:55:00,819 - #27 y
+INFO  19:55:00,819 - #7 ;
+INFO  19:55:00,820 - #3 {
+INFO  19:55:00,820 - #15 void
+INFO  19:55:00,821 - #27 main
+INFO  19:55:00,821 - #8 (
+INFO  19:55:00,821 - #9 )
+INFO  19:55:00,822 - #3 {
+INFO  19:55:00,822 - #27 bodovi
+INFO  19:55:00,823 - #19 ++
+INFO  19:55:00,823 - #7 ;
+INFO  19:55:00,824 - #4 }
+INFO  19:55:00,824 - #4 }
+INFO  19:55:00,826 - Program(
+  ProgramIdentificator(
+   MJProgram
+  ) [ProgramIdentificator]
+  ProgramDeclarations(
+    NoProgramDeclarations(
+    ) [NoProgramDeclarations]
+    VarDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarDeclPart(
+            VarIdent(
+             x
+              NoBrackets(
+              ) [NoBrackets]
+            ) [VarIdent]
+          ) [VarDeclPart]
+          VarIdent(
+           y
+            NoBrackets(
+            ) [NoBrackets]
+          ) [VarIdent]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [VarDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVariableDeclarations(
+      ) [NoVariableDeclarations]
+      StatementDesignator(
+        DesignatorStatement(
+          DesignatorIdent(
+           bodovi
+          ) [DesignatorIdent]
+          DesignatorIncOp(
+          ) [DesignatorIncOp]
+        ) [DesignatorStatement]
+      ) [StatementDesignator]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:55:00,830 - ===================================
+INFO  19:55:00,833 - Print count calls =0

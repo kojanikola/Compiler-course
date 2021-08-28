@@ -1,0 +1,124 @@
+INFO  13:52:36,041 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  13:52:36,087 - #2 program
+INFO  13:52:36,088 - #27 MJProgram
+INFO  13:52:36,088 - #3 {
+INFO  13:52:36,089 - #15 void
+INFO  13:52:36,089 - #27 main
+INFO  13:52:36,089 - #8 (
+INFO  13:52:36,090 - #9 )
+INFO  13:52:36,090 - #27 int
+INFO  13:52:36,091 - #27 i
+INFO  13:52:36,091 - #7 ;
+INFO  13:52:36,092 - #3 {
+INFO  13:52:36,092 - #27 i
+INFO  13:52:36,093 - #10 =
+INFO  13:52:36,093 - #26 1
+INFO  13:52:36,094 - #7 ;
+INFO  13:52:36,095 - #14 print
+INFO  13:52:36,095 - #8 (
+INFO  13:52:36,095 - #27 i
+INFO  13:52:36,095 - #9 )
+INFO  13:52:36,096 - #7 ;
+INFO  13:52:36,097 - #14 print
+INFO  13:52:36,097 - #8 (
+INFO  13:52:36,097 - #29 c
+INFO  13:52:36,098 - #13 ,
+INFO  13:52:36,098 - #26 3
+INFO  13:52:36,098 - #9 )
+INFO  13:52:36,098 - #7 ;
+INFO  13:52:36,098 - #4 }
+INFO  13:52:36,098 - #4 }
+INFO  13:52:36,107 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  NoProgramDeclarations(
+  ) [NoProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VariableDeclarations(
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             i
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NotStatements(
+            ) [NotStatements]
+            StatementDesignator(
+              DesignatorAssignOp(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                SimpleExpr(
+                  Expr1Term(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [Expr1Term]
+                ) [SimpleExpr]
+              ) [DesignatorAssignOp]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementPrint(
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+            NoNumConst(
+            ) [NoNumConst]
+          ) [StatementPrint]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorChar(
+                 c
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          OneNumConst(
+           3
+          ) [OneNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:52:36,108 - ===================================
+INFO  13:52:36,111 - Obradjuje se funkcija main on line 3
+INFO  13:52:36,111 - dodata promenljiva i on line 3
+INFO  13:52:36,112 - Print count calls =2
+INFO  13:52:36,112 - Vars = 0
+INFO  13:52:36,112 - ===================================
+INFO  13:52:36,120 - Parsiranje uspesno zavrseno!

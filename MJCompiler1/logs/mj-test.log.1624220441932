@@ -1,0 +1,229 @@
+INFO  17:07:44,989 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  17:07:45,101 - #2 program
+INFO  17:07:45,102 - #27 MJProgram
+INFO  17:07:45,103 - #27 int
+INFO  17:07:45,106 - #27 x
+INFO  17:07:45,107 - #7 ;
+INFO  17:07:45,108 - #27 int
+INFO  17:07:45,110 - #27 y
+INFO  17:07:45,111 - #7 ;
+INFO  17:07:45,112 - #3 {
+INFO  17:07:45,112 - #27 int
+INFO  17:07:45,114 - #27 k
+INFO  17:07:45,114 - #8 (
+INFO  17:07:45,115 - #9 )
+INFO  17:07:45,116 - #27 int
+INFO  17:07:45,118 - #27 c
+INFO  17:07:45,119 - #7 ;
+INFO  17:07:45,119 - #3 {
+INFO  17:07:45,120 - #27 c
+INFO  17:07:45,121 - #10 =
+INFO  17:07:45,122 - #26 2
+INFO  17:07:45,123 - #7 ;
+INFO  17:07:45,125 - #4 }
+INFO  17:07:45,132 - #27 int
+INFO  17:07:45,134 - #27 main
+INFO  17:07:45,134 - #8 (
+INFO  17:07:45,135 - #9 )
+INFO  17:07:45,135 - #3 {
+INFO  17:07:45,135 - #14 print
+INFO  17:07:45,135 - #8 (
+INFO  17:07:45,136 - #26 1
+INFO  17:07:45,136 - #9 )
+INFO  17:07:45,137 - #7 ;
+INFO  17:07:45,137 - #27 x
+INFO  17:07:45,138 - #10 =
+INFO  17:07:45,138 - #27 y
+INFO  17:07:45,138 - #12 +
+INFO  17:07:45,139 - #26 5
+INFO  17:07:45,141 - #12 +
+INFO  17:07:45,142 - #26 3
+INFO  17:07:45,142 - #7 ;
+INFO  17:07:45,143 - #14 print
+INFO  17:07:45,143 - #8 (
+INFO  17:07:45,144 - #26 2
+INFO  17:07:45,144 - #9 )
+INFO  17:07:45,144 - #7 ;
+INFO  17:07:45,145 - #4 }
+INFO  17:07:45,145 - #4 }
+INFO  17:07:45,167 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  ProgramDeclarations(
+    ProgramDeclarations(
+      NoProgramDeclarations(
+      ) [NoProgramDeclarations]
+      VarDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             x
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VarDeclaration]
+    ) [ProgramDeclarations]
+    VarDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclPart(
+          VarPartItem(
+           y
+          ) [VarPartItem]
+        ) [VarDeclPart]
+      ) [VarDecl]
+    ) [VarDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MehtodTypeNameCustom(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MehtodTypeNameCustom]
+        NoFormParam(
+        ) [NoFormParam]
+        VariableDeclarations(
+          NoVariableDeclarations(
+          ) [NoVariableDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclPart(
+              VarPartItem(
+               c
+              ) [VarPartItem]
+            ) [VarDeclPart]
+          ) [VarDecl]
+        ) [VariableDeclarations]
+        Statements(
+          NotStatements(
+          ) [NotStatements]
+          StatementDesignator(
+            DesignatorAssignOp(
+              DesignatorIdent(
+               c
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              SimpleExpr(
+                Expr1Term(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [Expr1Term]
+              ) [SimpleExpr]
+            ) [DesignatorAssignOp]
+          ) [StatementDesignator]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MehtodTypeNameCustom(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MehtodTypeNameCustom]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVariableDeclarations(
+      ) [NoVariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NotStatements(
+            ) [NotStatements]
+            StatementPrint(
+              SimpleExpr(
+                Expr1Term(
+                  TermFactor(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [Expr1Term]
+              ) [SimpleExpr]
+              NoNumConst(
+              ) [NoNumConst]
+            ) [StatementPrint]
+          ) [Statements]
+          StatementDesignator(
+            DesignatorAssignOp(
+              DesignatorIdent(
+               x
+              ) [DesignatorIdent]
+              Assignop(
+              ) [Assignop]
+              SimpleExpr(
+                ExprAddOp(
+                  ExprAddOp(
+                    Expr1Term(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorIdent(
+                           y
+                          ) [DesignatorIdent]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [Expr1Term]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermFactor(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprAddOp]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermFactor(
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprAddOp]
+              ) [SimpleExpr]
+            ) [DesignatorAssignOp]
+          ) [StatementDesignator]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:07:45,170 - ===================================
+INFO  17:07:45,180 - dodata promenljiva x on line 2
+INFO  17:07:45,181 - dodata promenljiva y on line 2
+INFO  17:07:45,181 - Obradjuje se funkcija k on line 5
+INFO  17:07:45,182 - dodata promenljiva c on line 5
+INFO  17:07:45,183 - Obradjuje se funkcija main on line 10
+INFO  17:07:45,183 - Print count calls =2
+INFO  17:07:45,184 - Vars = 0
+INFO  17:07:45,184 - ===================================
+INFO  17:07:45,187 - Parsiranje uspesno zavrseno!

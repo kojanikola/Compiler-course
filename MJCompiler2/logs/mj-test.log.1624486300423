@@ -1,0 +1,59 @@
+INFO  00:11:15,048 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  00:11:15,092 - #2 program
+INFO  00:11:15,092 - #27 MJProgram
+INFO  00:11:15,092 - #3 {
+INFO  00:11:15,093 - #15 void
+INFO  00:11:15,094 - #27 main
+INFO  00:11:15,094 - #8 (
+INFO  00:11:15,094 - #9 )
+INFO  00:11:15,095 - #3 {
+INFO  00:11:15,095 - #14 print
+INFO  00:11:15,096 - #8 (
+INFO  00:11:15,096 - #26 1
+INFO  00:11:15,096 - #9 )
+INFO  00:11:15,097 - #7 ;
+INFO  00:11:15,097 - #4 }
+INFO  00:11:15,098 - #4 }
+INFO  00:11:15,107 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  NoProgramDeclarations(
+  ) [NoProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVariableDeclarations(
+      ) [NoVariableDeclarations]
+      Statements(
+        NotStatements(
+        ) [NotStatements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:11:15,108 - ===================================
+INFO  00:11:15,112 - Obradjuje se funkcija main on line 3
+INFO  00:11:15,112 - Print count calls =1
+INFO  00:11:15,112 - Vars = 0
+INFO  00:11:15,112 - ===================================
+INFO  00:11:15,119 - Parsiranje uspesno zavrseno!

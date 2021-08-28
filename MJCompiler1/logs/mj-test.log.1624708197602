@@ -1,0 +1,233 @@
+INFO  13:49:44,920 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  13:49:44,965 - #2 program
+INFO  13:49:44,966 - #27 MJProgram
+INFO  13:49:44,966 - #3 {
+INFO  13:49:44,968 - #27 int
+INFO  13:49:44,968 - #27 k
+INFO  13:49:44,969 - #8 (
+INFO  13:49:44,970 - #27 int
+INFO  13:49:44,970 - #27 q
+INFO  13:49:44,970 - #5 [
+INFO  13:49:44,970 - #6 ]
+INFO  13:49:44,970 - #9 )
+INFO  13:49:44,974 - #3 {
+INFO  13:49:44,974 - #4 }
+INFO  13:49:44,975 - #15 void
+INFO  13:49:44,976 - #27 main
+INFO  13:49:44,976 - #8 (
+INFO  13:49:44,977 - #9 )
+INFO  13:49:44,977 - #27 int
+INFO  13:49:44,977 - #27 i
+INFO  13:49:44,977 - #7 ;
+INFO  13:49:44,977 - #3 {
+INFO  13:49:44,978 - #27 i
+INFO  13:49:44,978 - #10 =
+INFO  13:49:44,978 - #26 1
+INFO  13:49:44,980 - #7 ;
+INFO  13:49:44,980 - #27 i
+INFO  13:49:44,981 - #19 ++
+INFO  13:49:44,981 - #7 ;
+INFO  13:49:44,981 - #27 i
+INFO  13:49:44,981 - #19 ++
+INFO  13:49:44,981 - #7 ;
+INFO  13:49:44,981 - #27 i
+INFO  13:49:44,981 - #20 --
+INFO  13:49:44,981 - #7 ;
+INFO  13:49:44,981 - #27 i
+INFO  13:49:44,981 - #10 =
+INFO  13:49:44,981 - #27 i
+INFO  13:49:44,981 - #12 +
+INFO  13:49:44,982 - #26 5
+INFO  13:49:44,984 - #7 ;
+INFO  13:49:44,985 - #14 print
+INFO  13:49:44,985 - #8 (
+INFO  13:49:44,985 - #27 i
+INFO  13:49:44,985 - #9 )
+INFO  13:49:44,986 - #7 ;
+INFO  13:49:44,986 - #14 print
+INFO  13:49:44,987 - #8 (
+INFO  13:49:44,987 - #29 c
+INFO  13:49:44,987 - #9 )
+INFO  13:49:44,987 - #7 ;
+INFO  13:49:44,987 - #4 }
+INFO  13:49:44,987 - #4 }
+INFO  13:49:44,996 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  NoProgramDeclarations(
+  ) [NoProgramDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MehtodTypeNameCustom(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MehtodTypeNameCustom]
+        FormParams(
+          FormPars(
+            SingleFormalParamDecl(
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               q
+                BracketsB(
+                ) [BracketsB]
+              ) [FormalParamDecl]
+            ) [SingleFormalParamDecl]
+          ) [FormPars]
+        ) [FormParams]
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        NotStatements(
+        ) [NotStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VariableDeclarations(
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             i
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NotStatements(
+                    ) [NotStatements]
+                    StatementDesignator(
+                      DesignatorAssignOp(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                        Assignop(
+                        ) [Assignop]
+                        SimpleExpr(
+                          Expr1Term(
+                            TermFactor(
+                              FactorNumber(
+                               1
+                              ) [FactorNumber]
+                            ) [TermFactor]
+                          ) [Expr1Term]
+                        ) [SimpleExpr]
+                      ) [DesignatorAssignOp]
+                    ) [StatementDesignator]
+                  ) [Statements]
+                  StatementDesignator(
+                    DesignatorIncOp(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                    ) [DesignatorIncOp]
+                  ) [StatementDesignator]
+                ) [Statements]
+                StatementDesignator(
+                  DesignatorIncOp(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [DesignatorIncOp]
+                ) [StatementDesignator]
+              ) [Statements]
+              StatementDesignator(
+                DesignatorDecOp(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                ) [DesignatorDecOp]
+              ) [StatementDesignator]
+            ) [Statements]
+            StatementDesignator(
+              DesignatorAssignOp(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                SimpleExpr(
+                  ExprAddOp(
+                    Expr1Term(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorIdent(
+                           i
+                          ) [DesignatorIdent]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [Expr1Term]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermFactor(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprAddOp]
+                ) [SimpleExpr]
+              ) [DesignatorAssignOp]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementPrint(
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+            NoNumConst(
+            ) [NoNumConst]
+          ) [StatementPrint]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorChar(
+                 c
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:49:44,997 - ===================================
+INFO  13:49:45,001 - Obradjuje se funkcija k on line 4
+INFO  13:49:45,001 - Obradjuje se funkcija main on line 7
+INFO  13:49:45,002 - dodata promenljiva i on line 7
+INFO  13:49:45,002 - Print count calls =2
+INFO  13:49:45,002 - Vars = 0
+INFO  13:49:45,002 - ===================================
+INFO  13:49:45,012 - Parsiranje uspesno zavrseno!

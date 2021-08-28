@@ -1,0 +1,192 @@
+INFO  20:56:37,574 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  20:56:37,636 - #2 program
+INFO  20:56:37,636 - #27 test301
+INFO  20:56:37,637 - #16 const
+INFO  20:56:37,638 - #27 bool
+INFO  20:56:37,638 - #27 boole
+INFO  20:56:37,639 - #10 =
+INFO  20:56:37,640 - #28 true
+INFO  20:56:37,640 - #7 ;
+INFO  20:56:37,641 - #27 int
+INFO  20:56:37,641 - #27 niz
+INFO  20:56:37,642 - #5 [
+INFO  20:56:37,642 - #6 ]
+INFO  20:56:37,642 - #7 ;
+INFO  20:56:37,642 - #27 char
+INFO  20:56:37,644 - #27 nizch
+INFO  20:56:37,644 - #5 [
+INFO  20:56:37,644 - #6 ]
+INFO  20:56:37,644 - #7 ;
+INFO  20:56:37,644 - #3 {
+INFO  20:56:37,644 - #15 void
+INFO  20:56:37,645 - #27 main
+INFO  20:56:37,645 - #8 (
+INFO  20:56:37,661 - #9 )
+INFO  20:56:37,662 - #27 int
+INFO  20:56:37,663 - #27 bodovi
+INFO  20:56:37,663 - #7 ;
+INFO  20:56:37,664 - #3 {
+INFO  20:56:37,664 - #30 if
+INFO  20:56:37,665 - #8 (
+INFO  20:56:37,665 - #27 boole
+INFO  20:56:37,665 - #9 )
+INFO  20:56:37,667 - #14 print
+INFO  20:56:37,668 - #8 (
+INFO  20:56:37,668 - #26 1
+INFO  20:56:37,668 - #9 )
+INFO  20:56:37,669 - #7 ;
+INFO  20:56:37,669 - #27 bodovi
+INFO  20:56:37,670 - #10 =
+INFO  20:56:37,670 - #26 0
+INFO  20:56:37,670 - #7 ;
+INFO  20:56:37,671 - #4 }
+INFO  20:56:37,671 - #4 }
+INFO  20:56:37,685 - Program(
+  ProgramID(
+   test301
+  ) [ProgramID]
+  ProgramDeclarations(
+    ProgramDeclarations(
+      ProgramDeclarations(
+        NoProgramDeclarations(
+        ) [NoProgramDeclarations]
+        ConstDeclaration(
+          ConstDecl(
+            Type(
+             bool
+            ) [Type]
+            ConstDeclarationPart(
+              ConstBool(
+               boole
+               true
+              ) [ConstBool]
+            ) [ConstDeclarationPart]
+          ) [ConstDecl]
+        ) [ConstDeclaration]
+      ) [ProgramDeclarations]
+      VarDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            ArrayVarPart(
+             niz
+            ) [ArrayVarPart]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VarDeclaration]
+    ) [ProgramDeclarations]
+    VarDeclaration(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VarDeclPart(
+          ArrayVarPart(
+           nizch
+          ) [ArrayVarPart]
+        ) [VarDeclPart]
+      ) [VarDecl]
+    ) [VarDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VariableDeclarations(
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             bodovi
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          NotStatements(
+          ) [NotStatements]
+          StatementIf(
+            LparenIf(
+            ) [LparenIf]
+            SingleCondition(
+              SingleConditionTerm(
+                CondFactExp(
+                  SimpleExpr(
+                    Expr1Term(
+                      TermFactor(
+                        FactorDesignator(
+                          DesignatorIdent(
+                           boole
+                          ) [DesignatorIdent]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [Expr1Term]
+                  ) [SimpleExpr]
+                ) [CondFactExp]
+              ) [SingleConditionTerm]
+            ) [SingleCondition]
+            RparenIf(
+            ) [RparenIf]
+            StatementPrint(
+              SimpleExpr(
+                Expr1Term(
+                  TermFactor(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [Expr1Term]
+              ) [SimpleExpr]
+              NoNumConst(
+              ) [NoNumConst]
+            ) [StatementPrint]
+          ) [StatementIf]
+        ) [Statements]
+        StatementDesignator(
+          DesignatorAssignOp(
+            DesignatorIdent(
+             bodovi
+            ) [DesignatorIdent]
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorNumber(
+                   0
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+          ) [DesignatorAssignOp]
+        ) [StatementDesignator]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:56:37,687 - ===================================
+INFO  20:56:37,693 - Dodata konstanta na liniji 5
+INFO  20:56:37,693 - dodata niz niz on line 7
+INFO  20:56:37,693 - dodata niz nizch on line 8
+INFO  20:56:37,693 - Obradjuje se funkcija main on line 11
+INFO  20:56:37,693 - dodata promenljiva bodovi on line 12
+INFO  20:56:37,694 - cccc rs.etf.pp1.symboltable.concepts.Struct@6f539caf
+INFO  20:56:37,694 - bbbbb 									5      rs.etf.pp1.symboltable.concepts.Struct@6f539caf14
+INFO  20:56:37,694 - bbbbb 									1      rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f14
+INFO  20:56:37,695 - bbbbb 									1      rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f15
+INFO  20:56:37,695 - Designator i expr su odgovarajuceg tipa na liniji 15 on line 15
+INFO  20:56:37,695 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0
+INFO  20:56:37,695 - Print count calls =1
+INFO  20:56:37,695 - Vars = 0
+INFO  20:56:37,696 - ===================================
+INFO  20:56:37,711 - Parsiranje uspesno zavrseno!

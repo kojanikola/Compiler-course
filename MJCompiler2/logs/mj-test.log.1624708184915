@@ -1,0 +1,196 @@
+INFO  13:49:15,209 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  13:49:15,258 - #2 program
+INFO  13:49:15,258 - #27 MJProgram
+INFO  13:49:15,258 - #3 {
+INFO  13:49:15,260 - #27 int
+INFO  13:49:15,260 - #27 k
+INFO  13:49:15,261 - #8 (
+INFO  13:49:15,262 - #27 int
+INFO  13:49:15,262 - #27 q
+INFO  13:49:15,262 - #5 [
+INFO  13:49:15,262 - #6 ]
+INFO  13:49:15,262 - #9 )
+INFO  13:49:15,265 - #3 {
+INFO  13:49:15,266 - #4 }
+INFO  13:49:15,267 - #15 void
+INFO  13:49:15,268 - #27 main
+INFO  13:49:15,268 - #8 (
+INFO  13:49:15,269 - #9 )
+INFO  13:49:15,269 - #27 int
+INFO  13:49:15,270 - #27 i
+INFO  13:49:15,270 - #7 ;
+INFO  13:49:15,270 - #3 {
+INFO  13:49:15,271 - #27 i
+INFO  13:49:15,287 - #10 =
+INFO  13:49:15,287 - #26 1
+INFO  13:49:15,288 - #7 ;
+INFO  13:49:15,289 - #27 i
+INFO  13:49:15,290 - #19 ++
+INFO  13:49:15,290 - #7 ;
+INFO  13:49:15,290 - #27 i
+INFO  13:49:15,290 - #19 ++
+INFO  13:49:15,290 - #7 ;
+INFO  13:49:15,291 - #27 i
+INFO  13:49:15,291 - #20 --
+INFO  13:49:15,291 - #7 ;
+INFO  13:49:15,291 - #14 print
+INFO  13:49:15,291 - #8 (
+INFO  13:49:15,291 - #27 i
+INFO  13:49:15,291 - #9 )
+INFO  13:49:15,292 - #7 ;
+INFO  13:49:15,293 - #14 print
+INFO  13:49:15,293 - #8 (
+INFO  13:49:15,293 - #29 c
+INFO  13:49:15,294 - #9 )
+INFO  13:49:15,294 - #7 ;
+INFO  13:49:15,294 - #4 }
+INFO  13:49:15,295 - #4 }
+INFO  13:49:15,308 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  NoProgramDeclarations(
+  ) [NoProgramDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclarations(
+      ) [NoMethodDeclarations]
+      MethodDecl(
+        MehtodTypeNameCustom(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [MehtodTypeNameCustom]
+        FormParams(
+          FormPars(
+            SingleFormalParamDecl(
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               q
+                BracketsB(
+                ) [BracketsB]
+              ) [FormalParamDecl]
+            ) [SingleFormalParamDecl]
+          ) [FormPars]
+        ) [FormParams]
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        NotStatements(
+        ) [NotStatements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeNameVoid(
+       main
+      ) [MethodTypeNameVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VariableDeclarations(
+        NoVariableDeclarations(
+        ) [NoVariableDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarDeclPart(
+            VarPartItem(
+             i
+            ) [VarPartItem]
+          ) [VarDeclPart]
+        ) [VarDecl]
+      ) [VariableDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NotStatements(
+                  ) [NotStatements]
+                  StatementDesignator(
+                    DesignatorAssignOp(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                      Assignop(
+                      ) [Assignop]
+                      SimpleExpr(
+                        Expr1Term(
+                          TermFactor(
+                            FactorNumber(
+                             1
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [Expr1Term]
+                      ) [SimpleExpr]
+                    ) [DesignatorAssignOp]
+                  ) [StatementDesignator]
+                ) [Statements]
+                StatementDesignator(
+                  DesignatorIncOp(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [DesignatorIncOp]
+                ) [StatementDesignator]
+              ) [Statements]
+              StatementDesignator(
+                DesignatorIncOp(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                ) [DesignatorIncOp]
+              ) [StatementDesignator]
+            ) [Statements]
+            StatementDesignator(
+              DesignatorDecOp(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+              ) [DesignatorDecOp]
+            ) [StatementDesignator]
+          ) [Statements]
+          StatementPrint(
+            SimpleExpr(
+              Expr1Term(
+                TermFactor(
+                  FactorDesignator(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [Expr1Term]
+            ) [SimpleExpr]
+            NoNumConst(
+            ) [NoNumConst]
+          ) [StatementPrint]
+        ) [Statements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Term(
+              TermFactor(
+                FactorChar(
+                 c
+                ) [FactorChar]
+              ) [TermFactor]
+            ) [Expr1Term]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:49:15,310 - ===================================
+INFO  13:49:15,315 - Obradjuje se funkcija k on line 4
+INFO  13:49:15,316 - Obradjuje se funkcija main on line 7
+INFO  13:49:15,316 - dodata promenljiva i on line 7
+INFO  13:49:15,317 - Print count calls =2
+INFO  13:49:15,317 - Vars = 0
+INFO  13:49:15,317 - ===================================
+INFO  13:49:15,331 - Parsiranje uspesno zavrseno!

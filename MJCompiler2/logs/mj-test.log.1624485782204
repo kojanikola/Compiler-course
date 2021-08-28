@@ -1,0 +1,270 @@
+INFO  00:02:38,610 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  00:02:38,651 - #2 program
+INFO  00:02:38,651 - #27 MJProgram
+INFO  00:02:38,651 - #16 const
+INFO  00:02:38,653 - #27 char
+INFO  00:02:38,653 - #27 r
+INFO  00:02:38,653 - #10 =
+INFO  00:02:38,653 - #29 z
+INFO  00:02:38,654 - #7 ;
+INFO  00:02:38,654 - #27 bool
+INFO  00:02:38,655 - #27 p
+INFO  00:02:38,655 - #7 ;
+INFO  00:02:38,655 - #27 char
+INFO  00:02:38,656 - #27 j
+INFO  00:02:38,656 - #7 ;
+INFO  00:02:38,656 - #16 const
+INFO  00:02:38,656 - #27 bool
+INFO  00:02:38,657 - #27 q
+INFO  00:02:38,657 - #10 =
+INFO  00:02:38,657 - #28 true
+INFO  00:02:38,657 - #7 ;
+INFO  00:02:38,657 - #16 const
+INFO  00:02:38,673 - #27 bool
+INFO  00:02:38,673 - #27 j
+INFO  00:02:38,673 - #10 =
+INFO  00:02:38,673 - #26 3
+INFO  00:02:38,673 - #7 ;
+INFO  00:02:38,673 - #27 int
+INFO  00:02:38,674 - #27 x
+INFO  00:02:38,674 - #13 ,
+INFO  00:02:38,674 - #27 bla
+INFO  00:02:38,674 - #27 bla
+ERROR 00:02:38,674 - 
+Sintaksna greska na liniji 7
+INFO  00:02:38,674 - #40 -
+INFO  00:02:38,674 - #13 ,
+INFO  00:02:38,674 - #27 gl
+INFO  00:02:38,675 - #12 +
+INFO  00:02:38,675 - #7 ;
+INFO  00:02:38,675 - #27 int
+INFO  00:02:38,675 - #27 y
+INFO  00:02:38,675 - #7 ;
+ERROR 00:02:38,676 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 7
+INFO  00:02:38,676 - #16 const
+INFO  00:02:38,677 - #27 int
+INFO  00:02:38,677 - #27 z
+INFO  00:02:38,677 - #10 =
+INFO  00:02:38,677 - #26 3
+INFO  00:02:38,677 - #13 ,
+INFO  00:02:38,677 - #27 a
+INFO  00:02:38,677 - #10 =
+INFO  00:02:38,677 - #26 2
+INFO  00:02:38,677 - #7 ;
+INFO  00:02:38,678 - #27 int
+INFO  00:02:38,678 - #27 d
+INFO  00:02:38,678 - #5 [
+INFO  00:02:38,678 - #6 ]
+INFO  00:02:38,678 - #7 ;
+INFO  00:02:38,678 - #16 const
+INFO  00:02:38,679 - #27 char
+INFO  00:02:38,679 - #27 e
+INFO  00:02:38,679 - #10 =
+INFO  00:02:38,679 - #26 3
+INFO  00:02:38,679 - #7 ;
+INFO  00:02:38,679 - #16 const
+INFO  00:02:38,679 - #27 int
+INFO  00:02:38,680 - #27 d
+INFO  00:02:38,680 - #10 =
+INFO  00:02:38,680 - #26 3
+INFO  00:02:38,680 - #7 ;
+INFO  00:02:38,680 - #3 {
+INFO  00:02:38,680 - #4 }
+INFO  00:02:38,691 - Program(
+  ProgramID(
+   MJProgram
+  ) [ProgramID]
+  ProgramDeclarations(
+    ProgramDeclarations(
+      ProgramDeclarations(
+        ProgramDeclarations(
+          ProgramDeclarations(
+            ProgramDeclarations(
+              ProgramDeclarations(
+                ProgramDeclarations(
+                  ProgramDeclarations(
+                    ProgramDeclarations(
+                      ProgramDeclarations(
+                        NoProgramDeclarations(
+                        ) [NoProgramDeclarations]
+                        ConstDeclaration(
+                          ConstDecl(
+                            Type(
+                             char
+                            ) [Type]
+                            ConstDeclarationPart(
+                              ConstChar(
+                               r
+                               z
+                              ) [ConstChar]
+                            ) [ConstDeclarationPart]
+                          ) [ConstDecl]
+                        ) [ConstDeclaration]
+                      ) [ProgramDeclarations]
+                      VarDeclaration(
+                        VarDecl(
+                          Type(
+                           bool
+                          ) [Type]
+                          VarDeclPart(
+                            VarPartItem(
+                             p
+                            ) [VarPartItem]
+                          ) [VarDeclPart]
+                        ) [VarDecl]
+                      ) [VarDeclaration]
+                    ) [ProgramDeclarations]
+                    VarDeclaration(
+                      VarDecl(
+                        Type(
+                         char
+                        ) [Type]
+                        VarDeclPart(
+                          VarPartItem(
+                           j
+                          ) [VarPartItem]
+                        ) [VarDeclPart]
+                      ) [VarDecl]
+                    ) [VarDeclaration]
+                  ) [ProgramDeclarations]
+                  ConstDeclaration(
+                    ConstDecl(
+                      Type(
+                       bool
+                      ) [Type]
+                      ConstDeclarationPart(
+                        ConstBool(
+                         q
+                         true
+                        ) [ConstBool]
+                      ) [ConstDeclarationPart]
+                    ) [ConstDecl]
+                  ) [ConstDeclaration]
+                ) [ProgramDeclarations]
+                ConstDeclaration(
+                  ConstDecl(
+                    Type(
+                     bool
+                    ) [Type]
+                    ConstDeclarationPart(
+                      ConstNumber(
+                       j
+                       3
+                      ) [ConstNumber]
+                    ) [ConstDeclarationPart]
+                  ) [ConstDecl]
+                ) [ConstDeclaration]
+              ) [ProgramDeclarations]
+              VarDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclarations(
+                    VarDeclPart(
+                      VarPartItem(
+                       x
+                      ) [VarPartItem]
+                    ) [VarDeclPart]
+                    ErrorInDeclaringItem(
+                    ) [ErrorInDeclaringItem]
+                  ) [VarDeclarations]
+                ) [VarDecl]
+              ) [VarDeclaration]
+            ) [ProgramDeclarations]
+            VarDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarDeclPart(
+                  VarPartItem(
+                   y
+                  ) [VarPartItem]
+                ) [VarDeclPart]
+              ) [VarDecl]
+            ) [VarDeclaration]
+          ) [ProgramDeclarations]
+          ConstDeclaration(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarations(
+                ConstDeclarationPart(
+                  ConstNumber(
+                   z
+                   3
+                  ) [ConstNumber]
+                ) [ConstDeclarationPart]
+                ConstNumber(
+                 a
+                 2
+                ) [ConstNumber]
+              ) [ConstDeclarations]
+            ) [ConstDecl]
+          ) [ConstDeclaration]
+        ) [ProgramDeclarations]
+        VarDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclPart(
+              ArrayVarPart(
+               d
+              ) [ArrayVarPart]
+            ) [VarDeclPart]
+          ) [VarDecl]
+        ) [VarDeclaration]
+      ) [ProgramDeclarations]
+      ConstDeclaration(
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          ConstDeclarationPart(
+            ConstNumber(
+             e
+             3
+            ) [ConstNumber]
+          ) [ConstDeclarationPart]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [ProgramDeclarations]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationPart(
+          ConstNumber(
+           d
+           3
+          ) [ConstNumber]
+        ) [ConstDeclarationPart]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [ProgramDeclarations]
+  NoMethodDeclarations(
+  ) [NoMethodDeclarations]
+) [Program]
+INFO  00:02:38,691 - ===================================
+INFO  00:02:38,695 - Dodata konstanta na liniji 2
+INFO  00:02:38,695 - dodata promenljiva p on line 3
+INFO  00:02:38,696 - dodata promenljiva j on line 4
+INFO  00:02:38,696 - Dodata konstanta na liniji 5
+ERROR 00:02:38,696 - Na mestu int konstante tip nije int on line 6
+ERROR 00:02:38,696 - Konstantaj vec postoji on line 6
+INFO  00:02:38,696 - dodata promenljiva x on line 7
+INFO  00:02:38,696 - dodata promenljiva y on line 8
+INFO  00:02:38,696 - Dodata konstanta na liniji 9
+INFO  00:02:38,697 - Dodata konstanta na liniji 9
+INFO  00:02:38,697 - dodata promenljiva d on line 10
+ERROR 00:02:38,697 - Na mestu int konstante tip nije int on line 11
+INFO  00:02:38,697 - Dodata konstanta na liniji 11
+ERROR 00:02:38,697 - Konstantad vec postoji on line 12
+INFO  00:02:38,697 - Print count calls =0
+INFO  00:02:38,697 - Vars = 0
+INFO  00:02:38,697 - ===================================
+ERROR 00:02:38,698 - Parsiranje NIJE uspesno zavrseno!

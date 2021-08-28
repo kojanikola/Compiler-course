@@ -1,0 +1,63 @@
+INFO  20:00:26,435 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler\test\program.mj
+INFO  20:00:26,475 - #2 program
+INFO  20:00:26,475 - #27 MJProgram
+INFO  20:00:26,475 - #27 int
+INFO  20:00:26,476 - #27 x
+INFO  20:00:26,476 - #13 ,
+INFO  20:00:26,477 - #27 y
+INFO  20:00:26,477 - #7 ;
+INFO  20:00:26,478 - #3 {
+INFO  20:00:26,479 - #15 void
+INFO  20:00:26,479 - #27 main
+INFO  20:00:26,480 - #8 (
+INFO  20:00:26,480 - #9 )
+INFO  20:00:26,480 - #3 {
+INFO  20:00:26,481 - #4 }
+INFO  20:00:26,481 - #4 }
+INFO  20:00:26,483 - Program(
+  ProgramIdentificator(
+   MJProgram
+  ) [ProgramIdentificator]
+  ProgramDeclarations(
+    NoProgramDeclarations(
+    ) [NoProgramDeclarations]
+    VarDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarDeclPart(
+            VarIdent(
+             x
+              NoBrackets(
+              ) [NoBrackets]
+            ) [VarIdent]
+          ) [VarDeclPart]
+          VarIdent(
+           y
+            NoBrackets(
+            ) [NoBrackets]
+          ) [VarIdent]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [VarDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVariableDeclarations(
+      ) [NoVariableDeclarations]
+      NotStatements(
+      ) [NotStatements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:00:26,489 - ===================================
+INFO  20:00:26,491 - Print count calls =0

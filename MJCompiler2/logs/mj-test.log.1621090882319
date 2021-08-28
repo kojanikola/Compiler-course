@@ -1,0 +1,88 @@
+INFO  16:59:31,068 - Compiling source file: D:\ucenje\pp\projekat\workspace\MJCompiler1\test\program.mj
+INFO  16:59:31,120 - #2 program
+INFO  16:59:31,121 - #27 MJProgram
+INFO  16:59:31,121 - #27 int
+INFO  16:59:31,122 - #27 x
+INFO  16:59:31,122 - #13 ,
+INFO  16:59:31,124 - #27 y
+INFO  16:59:31,124 - #7 ;
+INFO  16:59:31,124 - #3 {
+INFO  16:59:31,125 - #15 void
+INFO  16:59:31,126 - #27 main
+INFO  16:59:31,126 - #8 (
+INFO  16:59:31,126 - #9 )
+INFO  16:59:31,127 - #3 {
+INFO  16:59:31,127 - #14 print
+INFO  16:59:31,128 - #8 (
+INFO  16:59:31,128 - #26 1
+INFO  16:59:31,129 - #9 )
+INFO  16:59:31,130 - #7 ;
+INFO  16:59:31,130 - #4 }
+INFO  16:59:31,131 - #4 }
+INFO  16:59:31,133 - Program(
+  ProgramIdentificator(
+   MJProgram
+  ) [ProgramIdentificator]
+  ProgramDeclarations(
+    NoProgramDeclarations(
+    ) [NoProgramDeclarations]
+    VarDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclarations(
+          VarDeclPart(
+            VarIdent(
+             x
+              NoBrackets(
+              ) [NoBrackets]
+            ) [VarIdent]
+          ) [VarDeclPart]
+          VarIdent(
+           y
+            NoBrackets(
+            ) [NoBrackets]
+          ) [VarIdent]
+        ) [VarDeclarations]
+      ) [VarDecl]
+    ) [VarDeclaration]
+  ) [ProgramDeclarations]
+  MethodDeclarations(
+    NoMethodDeclarations(
+    ) [NoMethodDeclarations]
+    MethodDecl(
+      VoidRetType(
+      ) [VoidRetType]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      NoVariableDeclarations(
+      ) [NoVariableDeclarations]
+      Statements(
+        NotStatements(
+        ) [NotStatements]
+        StatementPrint(
+          SimpleExpr(
+            Expr1Minus(
+              ExprNoMinus(
+              ) [ExprNoMinus]
+              SingleTerm(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [SingleTerm]
+            ) [Expr1Minus]
+          ) [SimpleExpr]
+          NoNumConst(
+          ) [NoNumConst]
+        ) [StatementPrint]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:59:31,136 - ===================================
+INFO  16:59:31,139 - Print count calls =1
+INFO  16:59:31,139 - Vars = 1
